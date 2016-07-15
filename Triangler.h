@@ -14,6 +14,8 @@ public:
 	 *     false ... Triangler has not reached to screen.
 	 */
 	bool update();
+	void die();
+	bool am_I_dead() const;
 
 
 
@@ -25,4 +27,5 @@ private:
 	float calc_x() const;
 	float calc_y() const;
 	si3::Coor3 get_random() const;
+	bool im_dead;
 };

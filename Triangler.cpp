@@ -5,6 +5,7 @@ static const float speed = 0.6f;
 
 Triangler::Triangler()
 {
+	im_dead = false;
 	si3::Coor3 a = get_random();
 	si3::Coor3 b = get_random();
 	si3::Coor3 c = get_random();
@@ -28,6 +29,15 @@ bool Triangler::update()
 	return false;
 }
 
+void Triangler::die()
+{
+	im_dead = true;
+}
+
+bool Triangler::am_I_dead() const
+{
+	return im_dead;
+}
 
 float Triangler::calc_x() const
 {

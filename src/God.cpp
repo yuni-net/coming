@@ -29,6 +29,10 @@ namespace ProjectName
 	{
 		if (state == State::game_playing)
 		{
+			if (triangler->am_I_dead())
+			{
+				triangler.reset(new Triangler());
+			}
 			const bool todo_judge = triangler->update();
 			if (todo_judge == false)
 			{
@@ -39,6 +43,10 @@ namespace ProjectName
 			if (did_collide)
 			{
 				state = State::game_over;
+			}
+			else
+			{
+				triangler->die();
 			}
 		}
 		else
