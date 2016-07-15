@@ -36,6 +36,6 @@ namespace ProjectName
 
 		God(const God & god);	// for singleton
 		God & operator=(const God & god);	// for singleton
-		bool judge();
+		bool judge(const Triangler & triangler);
 	};
 }

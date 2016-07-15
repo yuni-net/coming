@@ -24,4 +24,5 @@ private:
 	std::unique_ptr<si3::Triangle> triangle;
 	float calc_x() const;
 	float calc_y() const;
+	si3::Coor3 get_random() const;
 };

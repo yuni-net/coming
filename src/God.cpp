@@ -35,7 +35,7 @@ namespace ProjectName
 				return;
 			}
 			
-			const bool did_collide = judge(triangler);
+			const bool did_collide = judge(*triangler);
 			if (did_collide)
 			{
 				state = State::game_over;
@@ -52,8 +52,8 @@ namespace ProjectName
 		// todo
 	}
 
-	bool God::judge()
+	bool God::judge(const Triangler & triangler)
 	{
-		// todo
+		return false;
 	}
 }
