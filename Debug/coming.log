@@ -1,32 +1,15 @@
-﻿Build started 2016/07/15 15:41:33.
+﻿Build started 2016/07/15 21:10:00.
      1>Project "C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\coming.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\God.cpp src\WinMain.cpp
-         WinMain.cpp
          God.cpp
+     1>c:\users\yuni\hal\gq\05オリジナルプログラム\coming\src\god.cpp(38): error C2660: 'ProjectName::God::judge' : function does not take 1 arguments
          Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\coming.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\coming.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\coming.lib" /MACHINE:X86 Debug\God.obj
-         Debug\WinMain.obj
-     1>simplect3dd.lib(camera.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(display_manager.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(dxinput.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(dxlight.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(dxmanager.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(fps60.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(key.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(key_system.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(manager.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(matrix.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(mouse.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(si3_coor3.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(sky_dome_data.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(sky_dome_mini.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(sound_manager.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>simplect3dd.lib(utility.obj) : warning LNK4204: 'C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
-         coming.vcxproj -> C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\Debug\coming.exe
-     1>Done Building Project "C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\coming.vcxproj" (Build target(s)).
+         Compiling...
+         WinMain.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\yuni\HAL\GQ\05オリジナルプログラム\coming\coming.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:10.83
+Time Elapsed 00:00:09.52

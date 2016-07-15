@@ -86,9 +86,11 @@
   <ItemGroup>
     <ClCompile Include="src\God.cpp" />
     <ClCompile Include="src\WinMain.cpp" />
+    <ClCompile Include="Triangler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\God.h" />
+    <ClInclude Include="Triangler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

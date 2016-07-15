@@ -20,12 +20,31 @@ namespace ProjectName
 
 	God::God()
 	{
+		state = State::game_playing;
+		triangler.reset(new Triangler());
 		// todo
 	}
 
 	void God::update_dynamic()
 	{
-		// todo
+		if (state == State::game_playing)
+		{
+			const bool todo_judge = triangler->update();
+			if (todo_judge == false)
+			{
+				return;
+			}
+			
+			const bool did_collide = judge(triangler);
+			if (did_collide)
+			{
+				state = State::game_over;
+			}
+		}
+		else
+		{
+
+		}
 	}
 
 	God::~God()
@@ -33,4 +52,8 @@ namespace ProjectName
 		// todo
 	}
 
+	bool God::judge()
+	{
+		// todo
+	}
 }
